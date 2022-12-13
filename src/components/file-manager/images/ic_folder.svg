@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><mask id="a" fill="#fff">
+  <path d="m0 0h40v40h-40z" fill="#fff" fill-rule="evenodd"/></mask><path d="m19 12h8.2666667c1.8108629 0 3.3205963 1.2892886 3.6613342 3h-21.9280009v-3c0-1.6568542 1.3431458-3 3-3h4.5004952c.3120629 0 .6034788.15596106.7765802.41561315zm12 4v11.2666667c0 2.061863-1.6714703 3.7333333-3.7333333 3.7333333h-14.5333334c-2.061863 0-3.7333333-1.6714703-3.7333333-3.7333333v-11.2666667z" fill="#fff" fill-rule="evenodd" mask="url(#a)" transform="translate(1)"/>
+</svg>

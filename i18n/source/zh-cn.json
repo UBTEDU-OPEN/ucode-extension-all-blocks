@@ -1,0 +1,932 @@
+{
+  "manifest.author": {
+    "id": "manifest.author",
+    "defaultMessage": "优必选科技",
+    "description": "插件作者名字"
+  },
+  "manifest.description": {
+    "id": "manifest.description",
+    "defaultMessage": "这是一个测试插件，基于 USV-0.6 开发",
+    "description": "插件描述"
+  },
+  "block.menu1": {
+    "col": 24,
+    "defaultMessage": "菜单1",
+    "end": 165,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/menus.ts",
+    "line": 5,
+    "start": 104
+  },
+  "block.menu2": {
+    "col": 24,
+    "defaultMessage": "菜单2",
+    "end": 280,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/menus.ts",
+    "line": 12,
+    "start": 219
+  },
+  "block.menu3": {
+    "col": 24,
+    "defaultMessage": "菜单3",
+    "end": 395,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/menus.ts",
+    "line": 19,
+    "start": 334
+  },
+  "blocks.HSLBlock": {
+    "col": 26,
+    "defaultMessage": "控件 颜色HSL [COLOR]",
+    "end": 2695,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 88,
+    "start": 2623
+  },
+  "blocks.RGBBlock": {
+    "col": 26,
+    "defaultMessage": "控件 颜色RGB [COLOR]",
+    "end": 2796,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 92,
+    "start": 2724
+  },
+  "blocks.angleBlock": {
+    "col": 28,
+    "defaultMessage": "控件 角度 [ANGLE]",
+    "end": 2997,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 100,
+    "start": 2926
+  },
+  "blocks.asyncBlock": {
+    "col": 28,
+    "defaultMessage": "运行 非阻塞块(不等待,循环中运行需加延迟块)：显示文本(英文或数字8个字符以内) [INPUT]",
+    "end": 4014,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 132,
+    "start": 3907
+  },
+  "blocks.blockTypeSubTitle": {
+    "col": 35,
+    "defaultMessage": "类型 子标题1 (BlockType.LABEL)",
+    "end": 489,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 16,
+    "start": 399
+  },
+  "blocks.booleanBlock": {
+    "col": 30,
+    "defaultMessage": "类型 布尔块 (BlockType.BOOLEAN)",
+    "end": 1460,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 48,
+    "start": 1374
+  },
+  "blocks.booleanFieldBlock": {
+    "col": 35,
+    "defaultMessage": "控件 布尔值 [INPUT]",
+    "end": 2368,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 76,
+    "start": 2289
+  },
+  "blocks.commandBlock": {
+    "col": 30,
+    "defaultMessage": "类型 执行块 (BlockType.COMMAND)",
+    "end": 859,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 28,
+    "start": 773
+  },
+  "blocks.commandBlock2": {
+    "col": 31,
+    "defaultMessage": "类型 截止块 (BlockType.COMMAND, isTerminal=true)",
+    "end": 997,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 32,
+    "start": 893
+  },
+  "blocks.dialogFieldBlock": {
+    "col": 34,
+    "defaultMessage": "控件 菜单选择弹窗 [MENU]",
+    "end": 2594,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 84,
+    "start": 2514
+  },
+  "blocks.dropdownBlock": {
+    "col": 31,
+    "defaultMessage": "控件 下拉菜单 [MENU]",
+    "end": 2477,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 80,
+    "start": 2402
+  },
+  "blocks.eventAsyncBlock": {
+    "col": 33,
+    "defaultMessage": "监听 事件块（当姿态朝下）（轮询周期1秒）异步处理",
+    "end": 3745,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 124,
+    "start": 3657
+  },
+  "blocks.eventBlock": {
+    "col": 28,
+    "defaultMessage": "监听 事件块（当姿态朝下）（轮询周期1秒）",
+    "end": 3621,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 120,
+    "start": 3542
+  },
+  "blocks.getDataBlock": {
+    "col": 30,
+    "defaultMessage": "获取数据（温度）",
+    "end": 4115,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 136,
+    "start": 4047
+  },
+  "blocks.hatBlock": {
+    "col": 26,
+    "defaultMessage": "类型 帽子块 (BlockType.HAT)",
+    "end": 596,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 20,
+    "start": 518
+  },
+  "blocks.matrixBlock": {
+    "col": 29,
+    "defaultMessage": "控件 5x5(默认) 点阵 [MATRIX], 5x10 点阵 [MATRIX2]",
+    "end": 3129,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 104,
+    "start": 3029
+  },
+  "blocks.matrixCustomBlock": {
+    "col": 35,
+    "defaultMessage": "控件 8x8(默认) 自定义点阵 [MATRIX], 4x16 点阵 [MATRIX1],4x4 点阵 [MATRIX2]",
+    "end": 3293,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 108,
+    "start": 3167
+  },
+  "blocks.numBlock": {
+    "col": 26,
+    "defaultMessage": "类型 数值块 (BlockType.NUMBER)",
+    "end": 1219,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 40,
+    "start": 1138
+  },
+  "blocks.numInput2Block": {
+    "col": 32,
+    "defaultMessage": "控件 数字输入（-10～10的整数）[INPUT]，（-10～10的2位小数）[INPUT2]",
+    "end": 1992,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 64,
+    "start": 1883
+  },
+  "blocks.numInput3Block": {
+    "col": 32,
+    "defaultMessage": "控件 数字输入（正则表达式+min+max参数判断：-10～10的2位小数）[INPUT]",
+    "end": 2134,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 68,
+    "start": 2027
+  },
+  "blocks.numInputBlock": {
+    "col": 31,
+    "defaultMessage": "控件 数字输入盘（正则表达式+min+max参数判断：-10～10的2位小数）[INPUT]",
+    "end": 1848,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 60,
+    "start": 1741
+  },
+  "blocks.numPadBlock": {
+    "col": 29,
+    "defaultMessage": "控件 数字输入盘（-10～10的整数）[INPUT]，（-10～10的2位小数）[INPUT2]",
+    "end": 1707,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 56,
+    "start": 1600
+  },
+  "blocks.onlyOnlineBlock": {
+    "col": 33,
+    "defaultMessage": "切换 仅支持在线模式：发送数据(英文或数字8个字符以内) [INPUT]",
+    "end": 4250,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 140,
+    "start": 4151
+  },
+  "blocks.onlyUploadBlock": {
+    "col": 33,
+    "defaultMessage": "切换 仅支持烧录模式：显示文本(英文或数字8个字符以内) [INPUT]",
+    "end": 4385,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 144,
+    "start": 4286
+  },
+  "blocks.reporterBlock": {
+    "col": 31,
+    "defaultMessage": "类型 报告块 (BlockType.REPORTER)",
+    "end": 1341,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 44,
+    "start": 1253
+  },
+  "blocks.runningModeLabel": {
+    "col": 34,
+    "defaultMessage": "在线/烧录模式",
+    "end": 3511,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 116,
+    "start": 3440
+  },
+  "blocks.runningModeTitle": {
+    "col": 34,
+    "defaultMessage": "运行模式+通信测试",
+    "end": 3403,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 112,
+    "start": 3330
+  },
+  "blocks.stringBlock": {
+    "col": 29,
+    "defaultMessage": "控件 字符串（a~zA~Z 8个字符）[INPUT]",
+    "end": 2251,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 72,
+    "start": 2166
+  },
+  "blocks.subTitle2": {
+    "col": 27,
+    "defaultMessage": "类型 子标题2 (BlockType.LABEL)",
+    "end": 1109,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 36,
+    "start": 1027
+  },
+  "blocks.syncBlock": {
+    "col": 27,
+    "defaultMessage": "运行 阻塞块 直到结束(设置了3秒）：显示文本(英文或数字8个字符以内) [INPUT]",
+    "end": 3876,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 128,
+    "start": 3775
+  },
+  "blocks.terminalBlock": {
+    "col": 31,
+    "defaultMessage": "类型 帽子块截止块 (BlockType.HAT, hasNextStatement=false)",
+    "end": 740,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 24,
+    "start": 630
+  },
+  "blocks.toneBlock": {
+    "col": 27,
+    "defaultMessage": "控件 音符 [NOTE]",
+    "end": 2895,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 96,
+    "start": 2826
+  },
+  "blocks.validationBlock": {
+    "col": 33,
+    "defaultMessage": "运行可验证参数获取",
+    "end": 1568,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 52,
+    "start": 1496
+  },
+  "category.name.blockType": {
+    "col": 27,
+    "defaultMessage": "积木类型",
+    "end": 161,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/messages.ts",
+    "line": 4,
+    "start": 93
+  },
+  "category.name.fieldType": {
+    "col": 27,
+    "defaultMessage": "积木控件",
+    "end": 259,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 8,
+    "start": 191
+  },
+  "category.name.runningMode": {
+    "col": 29,
+    "defaultMessage": "运行模式",
+    "end": 361,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/blocks/messages.ts",
+    "line": 12,
+    "start": 291
+  },
+  "device.inputIp": {
+    "col": 25,
+    "defaultMessage": "请输入IP地址",
+    "end": 245,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/devices/messages.ts",
+    "line": 8,
+    "start": 183
+  },
+  "device.noConnection": {
+    "col": 30,
+    "defaultMessage": "您还没连接Device设备！",
+    "end": 5094,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 203,
+    "start": 5020
+  },
+  "device.tcpDevice": {
+    "col": 27,
+    "defaultMessage": "TCP连接",
+    "end": 155,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/devices/messages.ts",
+    "line": 4,
+    "start": 93
+  },
+  "device.udpDevice": {
+    "col": 27,
+    "defaultMessage": "UDP连接",
+    "end": 337,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/devices/messages.ts",
+    "line": 12,
+    "start": 275
+  },
+  "settings.appendContent": {
+    "col": 31,
+    "defaultMessage": "往文件中存放",
+    "end": 3687,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 143,
+    "start": 3618
+  },
+  "settings.compareFail": {
+    "col": 29,
+    "defaultMessage": "文件比较失败：",
+    "end": 3584,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 139,
+    "start": 3516
+  },
+  "settings.compareHash": {
+    "col": 29,
+    "defaultMessage": "比较文件内容hash",
+    "end": 3388,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 131,
+    "start": 3317
+  },
+  "settings.createFolder": {
+    "col": 30,
+    "defaultMessage": "创建目录",
+    "end": 1436,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 51,
+    "start": 1370
+  },
+  "settings.customDialog": {
+    "col": 30,
+    "defaultMessage": "我的组件（自定义弹窗，无图标）",
+    "end": 172,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 3,
+    "start": 95
+  },
+  "settings.customDialogTitle": {
+    "col": 35,
+    "defaultMessage": "我的组件",
+    "end": 281,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 7,
+    "start": 210
+  },
+  "settings.deleteDone": {
+    "col": 28,
+    "defaultMessage": "文件已删除",
+    "end": 2810,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 107,
+    "start": 2745
+  },
+  "settings.deleteFail": {
+    "col": 28,
+    "defaultMessage": "文件删除出错：",
+    "end": 2908,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 111,
+    "start": 2841
+  },
+  "settings.deleteFile": {
+    "col": 28,
+    "defaultMessage": "删除指定文件",
+    "end": 2714,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 103,
+    "start": 2648
+  },
+  "settings.deviceInfo": {
+    "col": 28,
+    "defaultMessage": "获取设备信息",
+    "end": 1830,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 67,
+    "start": 1764
+  },
+  "settings.download": {
+    "col": 26,
+    "defaultMessage": "下载文件",
+    "end": 3974,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 155,
+    "start": 3912
+  },
+  "settings.fileContent": {
+    "col": 29,
+    "defaultMessage": "获取文件内容",
+    "end": 2329,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 87,
+    "start": 2262
+  },
+  "settings.fileHash": {
+    "col": 26,
+    "defaultMessage": "获取文件hash",
+    "end": 2127,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 79,
+    "start": 2061
+  },
+  "settings.fileInfo": {
+    "col": 26,
+    "defaultMessage": "获取文件信息",
+    "end": 2528,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 95,
+    "start": 2464
+  },
+  "settings.fileManager": {
+    "col": 29,
+    "defaultMessage": "文件管理",
+    "end": 616,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 19,
+    "start": 551
+  },
+  "settings.fileWrite": {
+    "col": 27,
+    "defaultMessage": "文件内容写入结果：",
+    "end": 3883,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 151,
+    "start": 3815
+  },
+  "settings.firmwareVersion": {
+    "col": 33,
+    "defaultMessage": "查看固件版本（仅在线模式）",
+    "end": 395,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 11,
+    "start": 317
+  },
+  "settings.firmwareVersionToast": {
+    "col": 38,
+    "defaultMessage": "点击了 查看固件版本 菜单",
+    "end": 519,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 15,
+    "start": 436
+  },
+  "settings.folderFail": {
+    "col": 28,
+    "defaultMessage": "创建目录出错",
+    "end": 1733,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 63,
+    "start": 1667
+  },
+  "settings.folderName": {
+    "col": 28,
+    "defaultMessage": "请输入目录名",
+    "end": 1533,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 55,
+    "start": 1467
+  },
+  "settings.folderSuccess": {
+    "col": 31,
+    "defaultMessage": "创建目录完成",
+    "end": 1636,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 59,
+    "start": 1567
+  },
+  "settings.gc": {
+    "col": 20,
+    "defaultMessage": "触发gc",
+    "end": 4607,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 183,
+    "start": 4551
+  },
+  "settings.getDone": {
+    "col": 25,
+    "defaultMessage": "查询完毕",
+    "end": 2617,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 99,
+    "start": 2556
+  },
+  "settings.getFileDone": {
+    "col": 29,
+    "defaultMessage": "查询完毕，请查看控制台日志",
+    "end": 2435,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 91,
+    "start": 2361
+  },
+  "settings.hashSame": {
+    "col": 26,
+    "defaultMessage": "文件hash一样？",
+    "end": 3484,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 135,
+    "start": 3417
+  },
+  "settings.infoFail": {
+    "col": 26,
+    "defaultMessage": "获取设备信息出错：",
+    "end": 2032,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 75,
+    "start": 1965
+  },
+  "settings.infoSuccess": {
+    "col": 29,
+    "defaultMessage": "查询完毕，请查看控制台日志",
+    "end": 1936,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 71,
+    "start": 1862
+  },
+  "settings.inputFileName": {
+    "col": 31,
+    "defaultMessage": "请输入文件名",
+    "end": 2230,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 83,
+    "start": 2161
+  },
+  "settings.inputPath": {
+    "col": 27,
+    "defaultMessage": "请输入路径",
+    "end": 1131,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 39,
+    "start": 1067
+  },
+  "settings.newAppend": {
+    "col": 27,
+    "defaultMessage": "新建文件并写入数据",
+    "end": 3785,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 147,
+    "start": 3717
+  },
+  "settings.newDone": {
+    "col": 25,
+    "defaultMessage": "完成新建文件",
+    "end": 4436,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 175,
+    "start": 4373
+  },
+  "settings.newFail": {
+    "col": 25,
+    "defaultMessage": "新建文件出错：",
+    "end": 4528,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 179,
+    "start": 4464
+  },
+  "settings.newFile": {
+    "col": 25,
+    "defaultMessage": "新建文件",
+    "end": 4345,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 171,
+    "start": 4284
+  },
+  "settings.rename": {
+    "col": 24,
+    "defaultMessage": "重命名",
+    "end": 3088,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 119,
+    "start": 3029
+  },
+  "settings.renameAdd": {
+    "col": 27,
+    "defaultMessage": "文件名追加",
+    "end": 3002,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 115,
+    "start": 2938
+  },
+  "settings.renameDone": {
+    "col": 28,
+    "defaultMessage": "文件已重命名：",
+    "end": 3186,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 123,
+    "start": 3119
+  },
+  "settings.renameFail": {
+    "col": 28,
+    "defaultMessage": "文件重命名出错：",
+    "end": 3285,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 127,
+    "start": 3217
+  },
+  "settings.reset": {
+    "col": 23,
+    "defaultMessage": "重置设备",
+    "end": 4692,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 187,
+    "start": 4633
+  },
+  "settings.resetDone": {
+    "col": 27,
+    "defaultMessage": "设备完成重启",
+    "end": 4891,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 195,
+    "start": 4826
+  },
+  "settings.resetFail": {
+    "col": 27,
+    "defaultMessage": "设备重启失败：",
+    "end": 4987,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 199,
+    "start": 4921
+  },
+  "settings.resetting": {
+    "col": 27,
+    "defaultMessage": "设备重启中，大约需要7秒钟时间",
+    "end": 4796,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 191,
+    "start": 4722
+  },
+  "settings.scanCounts": {
+    "col": 28,
+    "defaultMessage": "扫描完成，目录和文件共[COUNT]个",
+    "end": 1241,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 43,
+    "start": 1162
+  },
+  "settings.scanError": {
+    "col": 27,
+    "defaultMessage": "扫描目录出错：",
+    "end": 1337,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 47,
+    "start": 1271
+  },
+  "settings.scanFile": {
+    "col": 26,
+    "defaultMessage": "扫描指定路径文件列表",
+    "end": 946,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 31,
+    "start": 878
+  },
+  "settings.scanPath": {
+    "col": 26,
+    "defaultMessage": "扫描路径",
+    "end": 1037,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 35,
+    "start": 975
+  },
+  "settings.upload": {
+    "col": 24,
+    "defaultMessage": "上传文件",
+    "end": 4061,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 159,
+    "start": 4001
+  },
+  "settings.uploadDone": {
+    "col": 28,
+    "defaultMessage": "文件上传完成",
+    "end": 4158,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 163,
+    "start": 4092
+  },
+  "settings.uploadFail": {
+    "col": 28,
+    "defaultMessage": "文件上传出错：",
+    "end": 4256,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 167,
+    "start": 4189
+  },
+  "settings.uploadFirmware": {
+    "col": 32,
+    "defaultMessage": "升级固件（仅烧录模式、串口）",
+    "end": 729,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 23,
+    "start": 651
+  },
+  "settings.uploadFirmwareToast": {
+    "col": 37,
+    "defaultMessage": "点击了 升级固件 菜单",
+    "end": 849,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/messages.ts",
+    "line": 27,
+    "start": 769
+  },
+  "toast.args": {
+    "col": 22,
+    "defaultMessage": "参数",
+    "end": 585,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/block.ts",
+    "line": 11,
+    "start": 532
+  },
+  "ui.delete": {
+    "col": 24,
+    "defaultMessage": "删除",
+    "end": 1525,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 68,
+    "start": 1473
+  },
+  "ui.deleteConfirm": {
+    "col": 31,
+    "defaultMessage": "确认删除？",
+    "end": 943,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 40,
+    "start": 881
+  },
+  "ui.deviceType": {
+    "col": 28,
+    "defaultMessage": "设备类型",
+    "end": 372,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/example.tsx",
+    "line": 11,
+    "start": 314
+  },
+  "ui.download": {
+    "col": 26,
+    "defaultMessage": "下载",
+    "end": 1446,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 64,
+    "start": 1392
+  },
+  "ui.downloadConfirm": {
+    "col": 33,
+    "defaultMessage": "确认下载？",
+    "end": 601,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 24,
+    "start": 537
+  },
+  "ui.empty": {
+    "col": 23,
+    "defaultMessage": "此文件夹文空",
+    "end": 1284,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 56,
+    "start": 1229
+  },
+  "ui.error": {
+    "col": 23,
+    "defaultMessage": "出错了",
+    "end": 679,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 28,
+    "start": 627
+  },
+  "ui.ext": {
+    "col": 21,
+    "defaultMessage": "文件格式必须为",
+    "end": 1021,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 44,
+    "start": 967
+  },
+  "ui.file.new": {
+    "col": 21,
+    "defaultMessage": "新建文件",
+    "end": 143,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 4,
+    "start": 87
+  },
+  "ui.fileManager": {
+    "col": 29,
+    "defaultMessage": "文件管理",
+    "end": 1203,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 52,
+    "start": 1144
+  },
+  "ui.inputName": {
+    "col": 27,
+    "defaultMessage": "请输入文件名",
+    "end": 232,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 8,
+    "start": 173
+  },
+  "ui.inputText": {
+    "col": 27,
+    "defaultMessage": "请输入文字",
+    "end": 847,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 36,
+    "start": 789
+  },
+  "ui.load": {
+    "col": 22,
+    "defaultMessage": "挂载信息",
+    "end": 555,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/index.tsx",
+    "line": 14,
+    "start": 503
+  },
+  "ui.msg1": {
+    "col": 22,
+    "defaultMessage": "我是一个 React Hook 组件 MenuId",
+    "end": 283,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/example.tsx",
+    "line": 7,
+    "start": 210
+  },
+  "ui.newFail": {
+    "col": 25,
+    "defaultMessage": "新建失败",
+    "end": 315,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 12,
+    "start": 260
+  },
+  "ui.newFolder": {
+    "col": 27,
+    "defaultMessage": "新建文件夹",
+    "end": 403,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 16,
+    "start": 345
+  },
+  "ui.newFolderName": {
+    "col": 31,
+    "defaultMessage": "请输入文件夹名",
+    "end": 501,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 20,
+    "start": 437
+  },
+  "ui.rename": {
+    "col": 24,
+    "defaultMessage": "重命名",
+    "end": 759,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 32,
+    "start": 706
+  },
+  "ui.sizeLimit": {
+    "col": 27,
+    "defaultMessage": "文件大小不得超过",
+    "end": 1112,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 48,
+    "start": 1051
+  },
+  "ui.space": {
+    "col": 23,
+    "defaultMessage": "空间信息",
+    "end": 478,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/index.tsx",
+    "line": 10,
+    "start": 425
+  },
+  "ui.upload": {
+    "col": 24,
+    "defaultMessage": "上传",
+    "end": 1363,
+    "file": "/Users/lh/codes/0_open-ucode/ucode-extension-all-blocks/src/components/file-manager/messages.ts",
+    "line": 60,
+    "start": 1311
+  }
+}

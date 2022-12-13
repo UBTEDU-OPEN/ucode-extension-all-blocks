@@ -1,0 +1,5 @@
+build
+!i18n/dist
+yarn-error.log
+node_modules
+dist

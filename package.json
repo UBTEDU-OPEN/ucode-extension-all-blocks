@@ -1,0 +1,60 @@
+{
+  "name": "@ubtech/ucode-extension-all-blocks",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --quiet",
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx src --quiet --fix",
+    "typecheck": "tsc --composite false --emitDeclarationOnly false",
+    "clean": "rimraf dist/*",
+    "compile:dev": "yarn webpack --progress --config webpack.dev.js",
+    "compile": "yarn webpack --progress --config webpack.prod.js",
+    "dev": "webpack --progress --config webpack.debug.js",
+    "dev:udp_tcp": "node .dev/udp-tcp-server/udp-tcp-server.js",
+    "i18n": "cua-i18n-extract",
+    "dev:websocket": "node .dev/ws-server/server.js"
+  },
+  "dependencies": {
+    "@ubtech/ucode-extension-common-sdk": "beta",
+    "classnames": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/react": "^16.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "@ubtech/ucode-extension-developer-kit": "beta",
+    "adm-zip": "^0.5.9",
+    "ajv": "^8.11.0",
+    "babel-loader": "8.2.3",
+    "buffer": "^6.0.3",
+    "copy-webpack-plugin": "6.0.3",
+    "crypto-browserify": "3.12.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "os-browserify": "0.3.0",
+    "prettier": "^2.3.2",
+    "process": "^0.11.10",
+    "rimraf": "^3.0.2",
+    "sass": "^1.52.3",
+    "sass-loader": "8.0.2",
+    "stream-browserify": "3.0.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.5.5",
+    "webpack": "5.45.1",
+    "webpack-cli": "4.7.2",
+    "webpack-merge": "^5.8.0",
+    "ws": "^8.5.0"
+  }
+}

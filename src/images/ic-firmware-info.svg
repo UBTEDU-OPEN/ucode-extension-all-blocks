@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>ic_chakanbanben</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.6%" y="-8.9%" width="119.2%" height="117.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.132903124   0 0 0 0 0.192820166   0 0 0 0 0.410835598  0 0 0 0.197279283 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="22" height="22"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7-1-设置弹窗" transform="translate(-307.000000, -581.000000)">
+            <g id="编组-33" filter="url(#filter-1)" transform="translate(252.000000, 104.000000)">
+                <g id="编组-31复制">
+                    <g transform="translate(35.000000, 113.000000)" id="编组-24">
+                        <g>
+                            <g id="编组-23" transform="translate(0.000000, 350.000000)">
+                                <g id="编组-21备份" transform="translate(20.000000, 14.000000)">
+                                    <g id="ic_chakanbanben">
+                                        <mask id="mask-3" fill="white">
+                                            <use xlink:href="#path-2"></use>
+                                        </mask>
+                                        <g id="蒙版"></g>
+                                        <g id="banben" mask="url(#mask-3)" stroke="#6A7078" stroke-width="2">
+                                            <g transform="translate(1.000000, 0.000000)">
+                                                <path d="M17.895914,6.47758412 L17.8960285,6.47738732 C18.0463318,6.21906474 17.9496104,5.89552988 17.609285,5.7132386 L10.2923421,1.30175843 C10.0914465,1.19516587 9.84190224,1.19516587 9.68846692,1.27488643 L2.27656988,5.74001499 C2.17353971,5.79471007 2.0909989,5.87356776 2.03701715,5.96636658 C1.88677721,6.22449561 1.98350621,6.54796049 2.32397811,6.73031816 L9.64086495,11.1418615 C9.8417921,11.2484649 10.0913364,11.2484649 10.2447439,11.1687543 L17.6563591,6.70359297 C17.7596661,6.64873513 17.8422324,6.56989368 17.895914,6.47758412 Z" id="路径"></path>
+                                                <path d="M18,10.0385192 C18,11 17.4829868,11.4600992 17.2429282,11.5947181 L10.7149464,15.8131592 C10.2703411,16.0622803 9.72970748,16.0622803 9.28507742,15.8131592 L2.75712037,11.5947181 C2.04658459,11.1965341 1.79074017,10.2929109 2.18558414,9.57650962" id="路径" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M18,14.4620096 C18,15.4234904 17.4829868,15.8835896 17.2429282,16.0182085 L10.7149464,20.2366495 C10.2703411,20.4857707 9.72970748,20.4857707 9.28507742,20.2366495 L2.75712037,16.0182085 C2.04658459,15.6200245 1.79074017,14.7164013 2.18558414,14" id="路径备份" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

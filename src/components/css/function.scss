@@ -1,0 +1,3 @@
+@function pxFn($px) {
+  @return calc($px / $rootNum) + rem;
+}

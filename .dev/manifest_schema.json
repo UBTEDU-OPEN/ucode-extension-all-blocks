@@ -1,0 +1,44 @@
+{
+  "$id": "UCODE_EXTERNAL_DEVICE_MANIFEST_SCHEMA",
+  "$schema": "http://json-schema.org/schema#",
+  "description": "uCode v4.0 External Device Manifest JSON schema v1.0",
+  "type": "object",
+  "required": ["id", "name", "version", "supportModes", "USV"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "插件 ID, 必须符合 UUID 的格式"
+    },
+    "name": {
+      "type": "string",
+      "description": "插件 名字, 必填"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "description": "插件 版本号, 符合 Semver 规范"
+    },
+    "supportModes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["online", "upload"]
+      },
+      "description": "插件支持的模式"
+    },
+    "USV": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "description": "UCode Standard Version, uCode 开放能力标准 版本号, 必填"
+    },
+    "icon": {
+      "type": "string",
+      "pattern": "(^data:image/svg+xml,)|(^data:image/(png|gif|jpe?g|svg);base64)|(\\.(png|svg|gif|jpe?g)$)|(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))",
+      "description": "插件图标, 支持 svg, png, jpeg, 格式, 或者 http 网络链接, 本地文件名"
+    },
+    "description": { "type": "string", "description": "插件 描述" },
+    "readme": { "type": "string" },
+    "author": { "type": "string", "description": "插件 作者名" }
+  }
+}

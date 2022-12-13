@@ -1,0 +1,20 @@
+{
+  "id": "bd4d8b65-b1dd-48e7-a441-5226599ab563",
+  "version": "0.1.3",
+  "name": "all-blocks",
+  "type": "hardware",
+  "supportModes": ["online", "upload"],
+  "description": {
+    "id": "manifest.description",
+    "defaultMessage": "这是一个测试插件，基于 USV-0.6 开发",
+    "description": "插件描述"
+  },
+  "icon": "logo.svg",
+  "author": {
+    "id": "manifest.author",
+    "defaultMessage": "优必选科技",
+    "description": "插件作者名字"
+  },
+  "readme": "",
+  "USV": "0.6.0"
+}
