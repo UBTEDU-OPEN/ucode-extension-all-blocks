@@ -1,7 +1,6 @@
 import { UCodeLinkAPI, ExtensionUI } from '@ubtech/ucode-extension-common-sdk';
 import type { UCodeCustomUI } from '@ubtech/ucode-extension-common-sdk/types/hardware/custom-ui';
 import { ExampleDeviceExtension } from './block';
-// import { bleRegister } from './devices/ble-device';
 import { spRegister, DemoSerialPortDevice } from './devices/sp-device';
 import { udpRegister } from './devices/udp-device';
 import { tcpRegister } from './devices/tcp-device';
@@ -82,7 +81,7 @@ function uploadFile() {
  * 调用 Worker 全局变量 self.UCode 注册
  */
 self.UCode.extensions.register({
-  DeviceRegister: [spRegister, /* bleRegister, */ WebsocketRegister, udpRegister, tcpRegister],
+  DeviceRegister: [spRegister, WebsocketRegister, udpRegister, tcpRegister],
   BlockRegister: ExampleDeviceExtension,
   UploadModeRegister,
   SettingMenuRegister: {
