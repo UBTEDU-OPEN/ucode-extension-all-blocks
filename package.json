@@ -20,7 +20,7 @@
     "dev:websocket": "node .dev/ws-server/server.js"
   },
   "dependencies": {
-    "@ubtech/ucode-extension-common-sdk": "beta",
+    "@ubtech/ucode-extension-common-sdk": "latest",
     "classnames": "^2.3.1"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "@types/react": "^16.14.0",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
-    "@ubtech/ucode-extension-developer-kit": "beta",
+    "@ubtech/ucode-extension-developer-kit": "latest",
     "adm-zip": "^0.5.9",
     "ajv": "^8.11.0",
     "babel-loader": "8.2.3",
