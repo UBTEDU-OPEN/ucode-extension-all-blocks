@@ -1272,9 +1272,9 @@
   integrity sha512-Rs5W/f0WcrLSukAkxSfRyeNRsXvHR0QE32h7Ck14GhWrRA4jGlBGa3V2d8o/KvxNTsjGtVE2k3h6JXmLe+C56Q==
 
 "@ubtech/ucode-extension-developer-kit@latest":
-  version "1.2.1"
-  resolved "https://edu-registry.ubtrobot.com:9601/@ubtech%2fucode-extension-developer-kit/-/ucode-extension-developer-kit-1.2.1.tgz#661387439880de96519d458b9fb7c92563e7fbb7"
-  integrity sha512-ndgax/ZxiYLz6FRxdQ4MA3YB4VPOv29j4vssfTDTnt1r9crEsAgaWjPj3+EVLjXZ0HsIJZ83eOmTc1AfYc9DQw==
+  version "1.2.2"
+  resolved "https://edu-registry.ubtrobot.com:9601/@ubtech%2fucode-extension-developer-kit/-/ucode-extension-developer-kit-1.2.2.tgz#8b3c5f5a63a492de5990de76da3e4ac96219386f"
+  integrity sha512-p9dwupJ8E+2HObY96BiphREfAqcmCN1HjUisG7XBm35T8moZMHvVrbDNJn7lqnwh6BHCwLlQb0r5zRTu1ZSwvw==
   dependencies:
     "@babel/core" "^7.16.12"
     "@babel/preset-env" "^7.16.11"
