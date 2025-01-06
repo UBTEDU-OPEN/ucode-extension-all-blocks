@@ -1268,13 +1268,13 @@
 
 "@ubtech/ucode-extension-common-sdk@latest":
   version "1.4.1"
-  resolved "https://edu-registry.ubtrobot.com:9601/@ubtech%2fucode-extension-common-sdk/-/ucode-extension-common-sdk-1.4.1.tgz#96e7c059e4aa88a9dc1ad56c433b61e82ae62f79"
-  integrity sha512-Rs5W/f0WcrLSukAkxSfRyeNRsXvHR0QE32h7Ck14GhWrRA4jGlBGa3V2d8o/KvxNTsjGtVE2k3h6JXmLe+C56Q==
+  resolved "https://registry.npmmirror.com/@ubtech/ucode-extension-common-sdk/-/ucode-extension-common-sdk-1.4.1.tgz#ea55090485683e8b50083335e31c639475559e1b"
+  integrity sha512-BY5/Gw9vt1C329K1O7ydzsAOBES+AKtNctOXdq+pUZrYvwnYUtV2TzKkbDBHZyy/C5ANNWKkjvfZFs7AGqH4Pg==
 
 "@ubtech/ucode-extension-developer-kit@latest":
   version "1.2.2"
-  resolved "https://edu-registry.ubtrobot.com:9601/@ubtech%2fucode-extension-developer-kit/-/ucode-extension-developer-kit-1.2.2.tgz#8b3c5f5a63a492de5990de76da3e4ac96219386f"
-  integrity sha512-p9dwupJ8E+2HObY96BiphREfAqcmCN1HjUisG7XBm35T8moZMHvVrbDNJn7lqnwh6BHCwLlQb0r5zRTu1ZSwvw==
+  resolved "https://registry.npmmirror.com/@ubtech/ucode-extension-developer-kit/-/ucode-extension-developer-kit-1.2.2.tgz#97c896680ac7eaad0d9ed55ac15176068bb246c6"
+  integrity sha512-UT6m/PX4UzLmkXUrdK8EKhDaJembVpMZvg5I9nzPIJhsNM1t59ow/Njq9S7Z6Pb7G8AocfxDhzhsmZLlNbZWMg==
   dependencies:
     "@babel/core" "^7.16.12"
     "@babel/preset-env" "^7.16.11"
